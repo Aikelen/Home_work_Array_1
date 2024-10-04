@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         //1
@@ -22,33 +24,13 @@ public class Main {
     }
     //2
     public static void printArrayInt(int[] array){
-        for(int i = 0; i < array.length;i++) {
-            if (i == (array.length - 1)) {
-                System.out.print(array[i]);
-            } else {
-                System.out.print(array[i] + ", ");
-            }
-        }
-        System.out.println();
+        System.out.println(Arrays.toString(array));
     }
     public static void printArrayDouble(double[] array){
-        for(int i = 0; i < array.length;i++) {
-            if (i == (array.length - 1)) {
-                System.out.print(array[i]);
-            } else {
-                System.out.print(array[i] + ", ");
-            }
-        }
-        System.out.println();
+        System.out.println(Arrays.toString(array));
     }
     public static void printArrayString(String[] array){
-        for(int i = 0; i < array.length;i++) {
-            if (i == (array.length - 1)) {
-                System.out.print(array[i]);
-            } else {
-                System.out.print(array[i] + ", ");
-            }
-        }
+        System.out.println(Arrays.toString(array));
         System.out.println();
         System.out.println();
     }
